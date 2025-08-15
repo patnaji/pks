@@ -10,5 +10,6 @@ resource "azurerm_storage_account" "namepk" {
     account_tier = "Standard"
     account_replication_type = "LRS"
     depends_on = [ azurerm_resource_group.rg_name ]
+
     
 }
